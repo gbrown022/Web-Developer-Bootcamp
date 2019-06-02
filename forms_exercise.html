@@ -1,0 +1,70 @@
+	<!-- Forms Exercise Web Developer Bootcamp Udemy -->
+	<!-- GCB 5 April 2019 -->
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Forms Exercise</title>
+	</head>
+	<body>
+
+	<h1>Register</h1>
+
+		<form>
+			<!-- Name -->
+			<label for="firstName">First Name: </label>
+			<input name="firstName" id="firstName" type="text" placeholder="John" required>
+			<label for="lastName">Last Name: </label>
+			<input name="lastName" id="lastName" type="text" placeholder="Smith" required>
+
+			<br>
+			
+			<!-- Gender -->
+			<label for="male">Male</label>
+			<input name="gender" id="male" type="radio" value="male">
+			<label for="female">Female</label>
+			<input name="gender" id="female" type="radio" value="female" checked>
+			<label for="other">Other</label>
+			<input name="gender" id="other" type="radio" value="other">
+
+			<br>
+
+			<!-- Email -->
+			<label for="email">Email:</label>
+			<input id="email" type="email" placeholder="your email">
+			<label for="password">Password:</label>
+			<input id="pwd" type="your password" placeholder="password" pattern=".(5,10)" required>
+
+			<br>
+
+			<label for="birthday">Birthday:</label>
+			<select id="birthday" name="DOBmonth">
+				<option value="">Month</option>
+				<option value="1">January</option>
+				<option value="7">July</option>
+				<option value="12">December</option>
+			</select>
+
+			<select name ="Day">
+				<option value="">Day</option>
+				<option value="1">1</option>
+				<option value="15">15</option>
+				<option value="30">30</option>
+			</select>
+
+			<select name="Year">
+				<option value="">Year</option>
+				<option value="1970">1970</option>
+				<option value="1980">1980</option>
+				<option value="1990">1990</option>
+			</select>
+
+			<br>
+			<label for="terms">I agree to the terms and conditions</label>
+			<input type="checkbox" id="terms" name="terms" unchecked>
+	  		<br>
+			<button>Submit</button>
+		</form>
+
+	</body>
+	</html>
