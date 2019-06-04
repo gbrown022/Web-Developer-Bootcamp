@@ -1,0 +1,15 @@
+#container {
+    background: gray;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+
+li {
+    background-color: snow;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: gray;
+}
